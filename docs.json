@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Arc Manager Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
+    "primary": "#0ea5e9",
+    "light": "#44b8ee",
     "dark": "#0f172b"
   },
   "favicon": "/favicon.svg",
