@@ -40,7 +40,11 @@
           },
           {
             "group": "Additional Information",
-            "pages": ["updates", "support", "license"]
+            "pages": [
+              "additional-info/updates",
+              "additional-info/support",
+              "additional-info/license"
+            ]
           }
         ]
       }
