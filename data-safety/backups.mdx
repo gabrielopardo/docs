@@ -1,0 +1,36 @@
+---
+title: Backup & Data Safety
+---
+
+# Backup & Data Safety
+
+Arc Manager is an **offline, local-first application**.
+
+## Where Your Data Lives
+
+C:\Users\[YourUsername]\AppData\Roaming\Arc Manager\
+
+Contents:
+- `workspaces/` — One database per workspace
+- `backups/` — Automatic daily backups
+- `app_settings.db` — Settings and license info
+
+## Automatic Backups
+
+- Created once per day on first launch
+- Last **7 backups** retained
+- Stored locally
+
+## Manual Backup & Restore
+
+Available in **Settings → Backup & Restore**:
+- Export as JSON
+- Export as SQLite
+- Restore from file
+
+## Protecting Your Data
+
+We recommend:
+1. Copying the Arc Manager folder to an external drive
+2. Creating manual exports after major changes
+3. Optionally syncing backups with a cloud folder
